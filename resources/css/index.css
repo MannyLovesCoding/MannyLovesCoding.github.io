@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background-image: url(../images/hulu-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header #hulu-header-logo, #header-login-button {
+    margin-bottom: 50px;
+}
+
+
+#hulu-header-logo {
+    height: 20px;
+    margin: 15px 30px 30px 40px;
+}
+
+
+#header-login-button {
+    font-size: 16px;
+    text-align: right;
+    margin-right: 55px;
+    position: relative;
+    bottom: 55px;
+}
+
+#header-login-button a {
+    color: #a8afbd;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 10px 17px;
+}
+
+#header-login-button a:hover {
+    color: white;
+    background-color: #424957;
+}
+
+#header-bundle-text {
+    text-align: center;
+    font-size: 13px;
+    color: #00ED82;
+    font-weight: 600;
+}
+
+#hulu-disney-espn-img {
+    text-align: center;
+}
+
+#hulu-disney-espn-img img {
+    height: 140px;
+    margin-top: 20px;
+}
+
+#header-hulu-description {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.header-container1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 750px;
+    height: 500px;
+}
+
+#disney-bundle-link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#disney-bundle-link a span {
+    background-color: #00ED82;
+    padding: 15px 250px;
+    border-radius: 5px;
+}
+
+#disney-bundle-link a {
+    text-decoration: none;
+    color: black;
+}
+
+#disney-bundle-link{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#disney-bundle-link:hover {
+    opacity: 0.5;
+}
+
+#whats-included-text {
+    font-size: 10px;
+    color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+#whats-included-text a {
+    color: rgb(255, 255, 255, 0.6);
+}
+
+#header-sign-up-hulu {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+#header-sign-up-hulu:hover {
+    border-bottom-color: rgb(255, 255, 255, 0.6);
+}
+
+/* main */
+
+main {
+    color: white;
+    background-color: black;
+}
+
+/* tv shows */
+.tv-shows p, .tv-shows h2{
+    text-align: center;
+}
+
+#tv-shows-subheader {
+    border-top: 1px solid transparent;
+    padding-top: 70px;
+    font-size: 14px;
+    color: #00ED82;
+    font-weight: 600;
+}
+
+#tv-shows-heading {
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin: 15px;
+}
+
+#tv-shows-description {
+    font-size: 17px;
+}
+
+.tv-shows-header-container {
+    margin: 0 auto;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.tv-shows-subheading {
+    text-align: start !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.tv-shows-heading {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    right: 93px;
+}
+
+.tv-shows-text-container {
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+
+.tv-shows-img {
+    opacity: 0.5;
+}
+
+.bobs-burger,
+.billie-holiday,
+.nine-perfect-strangers,
+.billions {
+    display: inline-block;
+    margin: 5px;
+}
+
+.billie-holiday img {
+    opacity: 1 !important;
+}
+
+.nine-perfect-strangers img {
+    height: 450px;
+}
+
+.nine-perfect-strangers img {
+    opacity: 0.5;
+}
+
+.billions img {
+    height: 450px;
+}
+
+.tv-shows-container {
+   text-align: center;
+}
+
+#billie-holiday-heading {
+    right: 107px;
+}
+
+#nine-perfect-strangers-heading {
+    right: 70px;
+}
+
+.live-tv-container {
+    margin: 0 auto;
+    width: 610px;
+}
+
+#live-tv-subheading {
+    font-size: 15px;
+    border-top: 1px solid transparent;
+    padding-top: 200px;
+    font-size: 14px;
+    color: #00ED82;
+    font-weight: 600;   
+}
+
+#live-tv-heading {
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin: 15px;
+}
+
+#live-tv-description {
+    font-size: 17px;
+}
+
+.live-tv-disclaimer {
+    margin-top: 15px;
+    font-size: 10px;
+    color: rgba(255,255,255,0.6);
+}
+
+.important-text {
+    text-decoration: underline;
+}
+
+.view-channels-area {
+    font-size: 17px;
+    margin-top: 15px;
+    color: #a8afbd;
+    font-weight: bold;
+    padding-bottom: 150px;
+}
+
+/* Live Sports */
+.live-sports-container {
+    background-image: url(../images/live-sports.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.live-sports-nav {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    border-bottom: 5px solid white;
+    padding: 10px;
+}
+
+.secondary-nav {
+    border-bottom: none;
+    color: rgba(255,255,255,0.4);
+}
+
+.secondary-nav:hover {
+    color: rgba(255, 255, 255, 0.14);
+}
+
+.main-nav:hover {
+    color: rgba(255, 255, 255, 0.549);
+}
+
+.live-sports-container2 {
+    width: 65%;
+    height: 50%;
+    padding-top: 13%;
+    
+}
+
+.live-sports-container3 {
+    width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.live-sports-heading {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.live-sports-description {
+    font-size: 20px;
+}
+
+.live-sports-img {
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px 10px;
+}
+
+.live-sports-disclaimer {
+    text-align: center;
+}
+.live-sports-disclaimer span {
+    position: relative;
+    right: 45px;
+    margin-top: 15px;
+    font-size: 10px;
+    color: rgba(255,255,255,0.6);
+}
+
+.live-sports-container span a {
+    color: inherit;
+}
+
+.plans {
+    height: 1000px;
+    width: 1100px;
+    margin: 0 auto;
+}
+/* plans */
+.plans .table-header-img {
+    height: 40px;
+}
+
+.plans .table-header-img[alt="Hulu"] {
+    height: 12px !important;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans table {
+    margin: 0 auto;
+}
+
+.plans h2 {
+    margin-top: 70px;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.plans-disclaimer {
+    font-size: 20px;
+    width: 800px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+.plans-disclaimer span {
+    font-weight: bold;
+}
+
+.plans-img {
+    height: 35px;
+    position: inherit;    
+}
+
+.plans-hulu-logo {
+    height: 12px !important;
+}
+
+.plans-header-table {
+    position: sticky;
+    top: 0;
+    width: 1050px;
+    border-top: 1px solid rgba(200,200,200,0.4);
+    margin: 40px auto 0 auto;
+    height: 204px;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+    background-color: rgb(0,0,0);
+}
+.types-of-plans-header {
+    height: 10px;
+}
+.plans-header-img-container {
+    position: relative;
+    width: 600px;
+    padding: 60px;
+    text-align: left;
+}
+
+.plans-hulu-disney-espn-img {
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
+
+.type-hulu-ads-container {
+    position: relative;
+    bottom: 140px;
+    left: 50px;
+}
+
+.type-hulu-ads-container span {
+    background-color: #00ED82;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 100px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.type-hulu-ads-container p {
+    margin: 15px 15px 0 15px;
+    color: rgb(190,192,194);
+    text-transform: uppercase;
+}
+
+.plans-type-heading {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.plans-type-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 90px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.plans-type-link:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.type-hulu-no-ads-container {
+    position: relative;
+    bottom: 280px;
+    left: 735px;
+    background-color: #272c34;
+    width: 315px;
+    height: 200px;
+}
+
+.type-hulu-no-ads-container p {
+    padding-top: 53px;
+}
+
+.type-hulu-no-ads-container p {
+    text-transform: uppercase;
+    color: rgb(190,192,194);
+}
+
+.plans-body-table {
+    float: left;
+    margin-left: 25px;
+}
+
+table {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.plans-row {
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+}
+
+.plans-feature-header {
+    padding: 20px 20px 20px 0;
+}
+
+.plans-first-data {
+    padding: 20px 107px 20px 100px;
+}
+
+.plans-second-data {
+    padding-left: 105px;
+    padding-right: 128px;
+    background-color: #272c34;
+}
+
+.plans-body-table p {
+    text-align: left;
+    font-size: 11px;
+}
+/* footer */
+
+footer {
+    background-color: hsl(	210, 12%, 92%);
+    height: 500px;
+    text-align: center;
+}
+
+.browse-container {
+    border: 1px solid hsl(220, 13%, 80%);
+    padding-bottom: 100px;
+}
+
+.footer-links-container {
+    width: 170px;
+    display: inline-block;
+    position: relative;
+}
+.footer-links-container a { 
+    display: block;
+    text-align: left;
+}
+.footer-links h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+    text-align: left;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #586174;
+    text-decoration: none;
+    margin: 7px 0 2px 0;
+}
+
+.browse-container2 {
+    top: 45px;
+}
+
+.browse-container4 {
+    bottom: 5px;
+}
+
+/* socials */
+.social-links-container {
+    margin: 50px auto;
+    width: 1100px;
+}
+
+.social-links-container2 {
+    text-align: left;
+}
+
+.social-links-container2 a {
+    margin: 15px;
+}
+
+/* other links */
+.other-footer-links {
+    margin: 0 auto;
+    width: 1070px;
+    position: relative;
+    right: 17px;
+}
+
+.other-footer-links  a {
+    text-decoration: none;
+}
+
+.other-footer-links-container {
+    margin: inherit;
+    width: inherit;
+    text-align: left;
+}
+
+.other-footer-links-container p, .other-footer-links a {
+    display: inline-block;
+    color: #586174;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
